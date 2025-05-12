@@ -1,0 +1,8 @@
+
+
+
+keystore : tamarcosmetics
+password : tamarcosmetics@123
+
+key Alias : tamarcosmetics
+password :  tamarcosmetics@123

@@ -1,0 +1,5 @@
+export const primaryColor = '#FDE7EB'
+export const headerColor ='#F1C2CC'
+export const primaryColorDark ='#F23E47'
+export const primaryColorLight ='#F23E47'
+export const whiteShade = '#FFFFFF'

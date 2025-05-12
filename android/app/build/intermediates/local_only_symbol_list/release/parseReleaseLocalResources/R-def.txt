@@ -1,0 +1,26 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_launcher
+drawable ic_launcher_adaptive_back
+drawable ic_launcher_adaptive_fore
+drawable ic_launcher_round
+drawable ic_launcher_round_adaptive_back
+drawable ic_launcher_round_adaptive_fore
+drawable node_modules_reactnavigation_elements_src_assets_backicon
+drawable node_modules_reactnavigation_elements_src_assets_backiconmask
+drawable rn_edit_text_material
+drawable src_images_background
+drawable src_images_bottomtext
+drawable src_images_description
+drawable src_images_logo
+drawable src_images_logotext
+drawable src_images_tamarcosmetics
+integer react_native_dev_server_port
+mipmap ic_launcher
+mipmap ic_launcher_adaptive_back
+mipmap ic_launcher_adaptive_fore
+mipmap ic_launcher_round
+mipmap ic_launcher_round_adaptive_back
+mipmap ic_launcher_round_adaptive_fore
+string app_name
+style AppTheme
