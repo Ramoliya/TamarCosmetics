@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.tamarcosmetics.app-mergeReleaseResources-46:/values-h720dp-v13/values-h720dp-v13.xml",
+            "outputFile": "com.tamarcosmetics.app-mergeReleaseResources-58:/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/ios/.gradle/caches/8.8/transforms/7e3a2d85f956185beb2f1e38094026bf/transformed/appcompat-1.6.1/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "source": "/Users/ios/.gradle/caches/8.13/transforms/ebf17995a800b3fd1678aa7510a591ec/transformed/appcompat-1.7.0/res/values-h720dp-v13/values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

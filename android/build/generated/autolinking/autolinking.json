@@ -1,7 +1,7 @@
 {
   "root": "/Users/ios/TIWC/React_Native_Workspace/TamarCosmetics",
   "reactNativePath": "/Users/ios/TIWC/React_Native_Workspace/TamarCosmetics/node_modules/react-native",
-  "reactNativeVersion": "0.75",
+  "reactNativeVersion": "0.79",
   "dependencies": {
     "@react-native-async-storage/async-storage": {
       "root": "/Users/ios/TIWC/React_Native_Workspace/TamarCosmetics/node_modules/@react-native-async-storage/async-storage",
@@ -9,7 +9,7 @@
       "platforms": {
         "ios": {
           "podspecPath": "/Users/ios/TIWC/React_Native_Workspace/TamarCosmetics/node_modules/@react-native-async-storage/async-storage/RNCAsyncStorage.podspec",
-          "version": "2.0.0",
+          "version": "2.2.0",
           "configurations": [],
           "scriptPhases": []
         },
@@ -58,7 +58,7 @@
       "platforms": {
         "ios": {
           "podspecPath": "/Users/ios/TIWC/React_Native_Workspace/TamarCosmetics/node_modules/react-native-onesignal/react-native-onesignal.podspec",
-          "version": "5.2.5",
+          "version": "5.2.12",
           "configurations": [],
           "scriptPhases": []
         },
@@ -82,7 +82,7 @@
       "platforms": {
         "ios": {
           "podspecPath": "/Users/ios/TIWC/React_Native_Workspace/TamarCosmetics/node_modules/react-native-safe-area-context/react-native-safe-area-context.podspec",
-          "version": "4.11.1",
+          "version": "5.5.0",
           "configurations": [],
           "scriptPhases": []
         },
@@ -110,7 +110,7 @@
       "platforms": {
         "ios": {
           "podspecPath": "/Users/ios/TIWC/React_Native_Workspace/TamarCosmetics/node_modules/react-native-screens/RNScreens.podspec",
-          "version": "3.34.0",
+          "version": "4.11.1",
           "configurations": [],
           "scriptPhases": []
         },
@@ -129,6 +129,8 @@
             "RNSScreenStackComponentDescriptor",
             "RNSSearchBarComponentDescriptor",
             "RNSScreenComponentDescriptor",
+            "RNSScreenFooterComponentDescriptor",
+            "RNSScreenContentWrapperComponentDescriptor",
             "RNSModalScreenComponentDescriptor"
           ],
           "cmakeListsPath": "/Users/ios/TIWC/React_Native_Workspace/TamarCosmetics/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt",
@@ -145,7 +147,7 @@
       "platforms": {
         "ios": {
           "podspecPath": "/Users/ios/TIWC/React_Native_Workspace/TamarCosmetics/node_modules/react-native-webview/react-native-webview.podspec",
-          "version": "13.12.3",
+          "version": "13.15.0",
           "configurations": [],
           "scriptPhases": []
         },
@@ -317,8 +319,9 @@
           "description": "Disables interactive mode"
         },
         {
-          "name": "--experimental-debugger",
-          "description": "[Experimental] Enable the new debugger experience and 'j' to debug. This enables the new frontend experience only: connection reliability and some basic features are unstable in this release."
+          "name": "--client-logs",
+          "description": "[Deprecated] Enable plain text JavaScript log streaming for all connected apps. This feature is deprecated and will be removed in future.",
+          "default": false
         }
       ]
     },
@@ -338,6 +341,11 @@
         {
           "name": "--outputPath <path>",
           "description": "Path where generated artifacts will be output to."
+        },
+        {
+          "name": "--source <string>",
+          "description": "Whether the script is invoked from an `app` or a `library`",
+          "default": "app"
         }
       ]
     },
@@ -379,8 +387,7 @@
         },
         {
           "name": "--terminal <string>",
-          "description": "Launches the Metro Bundler in a new window using the specified terminal path.",
-          "default": "vscode"
+          "description": "Launches the Metro Bundler in a new window using the specified terminal path."
         },
         {
           "name": "--binary-path <string>",
@@ -539,8 +546,7 @@
         },
         {
           "name": "--terminal <string>",
-          "description": "Launches the Metro Bundler in a new window using the specified terminal path.",
-          "default": "vscode"
+          "description": "Launches the Metro Bundler in a new window using the specified terminal path."
         },
         {
           "name": "--appId <string>",
@@ -612,9 +618,7 @@
     "ios": {},
     "android": {}
   },
-  "assets": [
-    "./assets/fonts"
-  ],
+  "assets": [],
   "project": {
     "ios": {
       "sourceDir": "/Users/ios/TIWC/React_Native_Workspace/TamarCosmetics/ios",
@@ -623,7 +627,6 @@
         "path": ".",
         "isWorkspace": true
       },
-      "automaticPodsInstallation": false,
       "assets": []
     },
     "android": {

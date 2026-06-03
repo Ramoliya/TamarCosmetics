@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.tamarcosmetics.app-mergeReleaseResources-46:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+            "outputFile": "com.tamarcosmetics.app-mergeReleaseResources-58:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/Users/ios/.gradle/caches/8.8/transforms/7b318836775473582af6a678efbc7360/transformed/material-1.6.1/res/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+                    "source": "/Users/ios/.gradle/caches/8.13/transforms/c1621e2732567c46969f79055491b754/transformed/material-1.12.0/res/values-w600dp-land-v13/values-w600dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

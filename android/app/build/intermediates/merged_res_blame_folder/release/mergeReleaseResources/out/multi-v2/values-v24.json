@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.tamarcosmetics.app-mergeReleaseResources-46:/values-v24/values-v24.xml",
+            "outputFile": "com.tamarcosmetics.app-mergeReleaseResources-58:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/ios/.gradle/caches/8.8/transforms/7e3a2d85f956185beb2f1e38094026bf/transformed/appcompat-1.6.1/res/values-v24/values-v24.xml",
+                    "source": "/Users/ios/.gradle/caches/8.13/transforms/ebf17995a800b3fd1678aa7510a591ec/transformed/appcompat-1.7.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/ios/.gradle/caches/8.8/transforms/7b318836775473582af6a678efbc7360/transformed/material-1.6.1/res/values-v24/values-v24.xml",
+                    "source": "/Users/ios/.gradle/caches/8.13/transforms/c1621e2732567c46969f79055491b754/transformed/material-1.12.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,9,12,15",
                         "startColumns": "4,4,4,4,4,4,4,4",

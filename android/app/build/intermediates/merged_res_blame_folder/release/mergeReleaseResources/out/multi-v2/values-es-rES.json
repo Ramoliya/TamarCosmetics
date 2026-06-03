@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.tamarcosmetics.app-mergeReleaseResources-46:/values-es-rES/values-es-rES.xml",
+            "outputFile": "com.tamarcosmetics.app-mergeReleaseResources-58:/values-es-rES/values-es-rES.xml",
             "map": [
                 {
-                    "source": "/Users/ios/.gradle/caches/8.8/transforms/232bfe9c95121b4406d859de5d30de0a/transformed/react-android-0.75.4-release/res/values-es-rES/values-es-rES.xml",
+                    "source": "/Users/ios/.gradle/caches/8.13/transforms/510b0aa03b13b6b2bba72be336217318/transformed/react-android-0.79.0-release/res/values-es-rES/values-es-rES.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

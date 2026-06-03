@@ -1,15 +1,15 @@
-current directory: /Users/ios/TIWC/React_Native_Workspace/TamarCosmetics/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
-/Users/ios/.rvm/rubies/ruby-2.7.5/bin/ruby -I /Users/ios/.rvm/rubies/ruby-2.7.5/lib/ruby/2.7.0 -r ./siteconf20241018-2759-1o674gg.rb extconf.rb
+current directory: /Users/ios/Desktop/MyApp/TamarCosmetics/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+/Users/ios/.rvm/rubies/ruby-2.7.5/bin/ruby -I /Users/ios/.rvm/rubies/ruby-2.7.5/lib/ruby/2.7.0 -r ./siteconf20250522-3536-bg6d2f.rb extconf.rb
 creating Makefile
 
-current directory: /Users/ios/TIWC/React_Native_Workspace/TamarCosmetics/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+current directory: /Users/ios/Desktop/MyApp/TamarCosmetics/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
 make "DESTDIR=" clean
 
-current directory: /Users/ios/TIWC/React_Native_Workspace/TamarCosmetics/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+current directory: /Users/ios/Desktop/MyApp/TamarCosmetics/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
 make "DESTDIR="
 compiling nkf.c
 linking shared-object nkf.bundle
 
-current directory: /Users/ios/TIWC/React_Native_Workspace/TamarCosmetics/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+current directory: /Users/ios/Desktop/MyApp/TamarCosmetics/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
 make "DESTDIR=" install
-/usr/local/opt/coreutils/bin/ginstall -c -m 0755 nkf.bundle ./.gem.20241018-2759-v3ia0w
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 nkf.bundle ./.gem.20250522-3536-b4vug

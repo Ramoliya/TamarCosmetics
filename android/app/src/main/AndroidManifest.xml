@@ -1,8 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
-    
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
     <application
       android:name=".MainApplication"
       android:label="@string/app_name"
@@ -11,6 +11,16 @@
       android:allowBackup="false"
       android:theme="@style/AppTheme"
       android:supportsRtl="true">
+      <meta-data android:name="onesignal_app_id"
+    android:value="d9945d54-6265-4c20-a274-492cc3b9607e"/>
+   <meta-data android:name="onesignal_google_project_number"
+    android:value="REMOTE"/>
+    <meta-data
+  android:name="com.onesignal.NotificationServiceExtension"
+  android:value="true"/>
+  <meta-data
+    android:name="com.onesignal.NotificationSmallIcon"
+    android:resource="@drawable/ic_stat_onesignal_default"/>
       <activity
         android:name=".MainActivity"
         android:label="@string/app_name"

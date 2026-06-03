@@ -20,6 +20,7 @@ const IntroductionScreen = ({ navigation }) => {
                         <Text style={{ color: whiteShade, fontSize: 30,fontFamily:Font_Regular, textAlign: 'right'}}>המרכז הארצי לייבוא ושיווק מוצרים לקוסמטיקאיות אונליין</Text>
                     </View>
                     <Text style={{ color: 'black', fontSize: 35,fontFamily:Font_Bold }}>אפילציה למקצועיות</Text>
+                    
 
                 </View>
             </View>
